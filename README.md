@@ -49,7 +49,11 @@
 
 ### Monitoring & Tracking
 
-- [beeper-pulse](https://github.com/beeper-community/beeper-pulse) - Version tracking, changelogs, RSS feeds, and status monitoring for the Beeper ecosystem
+- [beeper-pulse](https://github.com/beeper-community/beeper-pulse) - Full monitoring suite: status checks, release tracking, notifications, and status page
+
+### Desktop Utilities
+
+- [update-beeper](https://github.com/beeper-community/update-beeper) - Self-healing Beeper Desktop updater for Linux with automatic rollback
 
 ### Integrations
 
@@ -111,6 +115,7 @@ Beeper uses bridges to connect to different messaging networks. Most are based o
 
 ### Stay Updated
 
+- [Beeper Pulse Alerts (Matrix)](https://matrix.to/#/#beeper-pulse-alerts:beeper.com) - Automated release and status notifications
 - [beeper-pulse RSS Feed](https://raw.githubusercontent.com/beeper-community/beeper-pulse/main/feeds/releases.xml) - Subscribe to version updates
 - [beeper-pulse Status Page](https://beeper-community.github.io/beeper-pulse) - Service status and release history
 
