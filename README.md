@@ -1,134 +1,188 @@
-# Awesome Beeper [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> A curated list of awesome resources, tools, and projects for the Beeper ecosystem.
+# 🐝 Awesome Beeper
+
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/beeper-community/awesome-beeper/pulls)
+
+**A curated list of awesome resources, tools, and projects for the Beeper ecosystem**
 
 [Beeper](https://beeper.com) is a universal chat app that brings all your messaging networks together.
 
 ---
 
-## Contents
+[Official](#-official-resources) •
+[SDK & API](#-sdk--api) •
+[Community Tools](#-community-tools) •
+[Bridges](#-bridges) •
+[Tutorials](#-tutorials--guides) •
+[Community](#-community)
 
-- [Official Resources](#official-resources)
-- [SDK & API](#sdk--api)
-- [Community Tools](#community-tools)
-- [Bridges](#bridges)
-- [Tutorials & Guides](#tutorials--guides)
-- [Community](#community)
+</div>
 
 ---
 
-## Official Resources
+## 📋 Contents
 
-- [Beeper Website](https://beeper.com) - Official Beeper website
-- [Beeper Help Center](https://help.beeper.com) - Official documentation and support
-- [Beeper Blog](https://blog.beeper.com) - Official blog with updates and announcements
+- [🏢 Official Resources](#-official-resources)
+- [🔧 SDK & API](#-sdk--api)
+- [🛠️ Community Tools](#️-community-tools)
+- [🌉 Bridges](#-bridges)
+- [📖 Tutorials & Guides](#-tutorials--guides)
+- [💬 Community](#-community)
+
+---
+
+## 🏢 Official Resources
+
+### Websites
+
+| Resource | Description |
+|----------|-------------|
+| [Beeper](https://beeper.com) | Official website |
+| [Help Center](https://help.beeper.com) | Documentation & support |
+| [Blog](https://blog.beeper.com) | Updates & announcements |
 
 ### GitHub Repositories
 
-- [beeper/bridge-manager](https://github.com/beeper/bridge-manager) - Bridge management tool
-- [beeper/desktop-api-js](https://github.com/beeper/desktop-api-js) - TypeScript SDK for Desktop API
-- [beeper/raycast](https://github.com/beeper/raycast) - Raycast extension for Beeper
-- [beeper/aibot](https://github.com/beeper/aibot) - AI chatbot powered by Beeper
+| Repository | Description |
+|------------|-------------|
+| [beeper/bridge-manager](https://github.com/beeper/bridge-manager) | Bridge management tool |
+| [beeper/desktop-api-js](https://github.com/beeper/desktop-api-js) | TypeScript SDK for Desktop API |
+| [beeper/raycast](https://github.com/beeper/raycast) | Raycast extension |
+| [beeper/aibot](https://github.com/beeper/aibot) | AI chatbot powered by Beeper |
 
 ---
 
-## SDK & API
+## 🔧 SDK & API
 
 ### Official SDK
 
 - [@beeper/desktop-api](https://npmjs.com/package/@beeper/desktop-api) - Official TypeScript SDK for Beeper Desktop API
 
-### API Documentation
+### Documentation & Tools
 
-- [Desktop API Overview](https://github.com/beeper/desktop-api-js#readme) - How to use the Desktop API
-- [MCP Server](https://github.com/nicholasoxford/beeper-mcp) - Model Context Protocol server for AI integrations
+| Resource | Description |
+|----------|-------------|
+| [Desktop API Overview](https://github.com/beeper/desktop-api-js#readme) | How to use the Desktop API |
+| [MCP Server](https://github.com/nicholasoxford/beeper-mcp) | Model Context Protocol server for AI integrations |
 
 ---
 
-## Community Tools
+## 🛠️ Community Tools
 
-### Monitoring & Tracking
+### Monitoring & Status
 
-- [beeper-pulse](https://github.com/beeper-community/beeper-pulse) - Full monitoring suite: status checks, release tracking, notifications, and status page
+| Tool | Description |
+|------|-------------|
+| [beeper-pulse](https://github.com/beeper-community/beeper-pulse) | 📊 Full monitoring suite: status checks, release tracking, notifications |
+| [Pulse Status Page](https://beeper-community.github.io/beeper-pulse) | 🌐 Live status page for Beeper services |
 
 ### Desktop Utilities
 
-- [update-beeper](https://github.com/beeper-community/update-beeper) - Self-healing Beeper Desktop updater for Linux with automatic rollback
+| Tool | Description |
+|------|-------------|
+| [update-beeper](https://github.com/beeper-community/update-beeper) | 🔄 Self-healing Linux updater with automatic rollback |
 
 ### Integrations
 
-- [Raycast Extension](https://github.com/beeper/raycast) - Search and manage Beeper from Raycast (macOS)
+| Tool | Description |
+|------|-------------|
+| [Raycast Extension](https://github.com/beeper/raycast) | 🔍 Search and manage Beeper from Raycast (macOS) |
 
-*Have a tool to add? [Submit a PR!](https://github.com/beeper-community/awesome-beeper/pulls)*
+> 💡 **Have a tool to add?** [Submit a PR!](https://github.com/beeper-community/awesome-beeper/pulls)
 
 ---
 
-## Bridges
+## 🌉 Bridges
 
 Beeper uses bridges to connect to different messaging networks. Most are based on the [mautrix](https://github.com/mautrix) ecosystem.
 
-### Official Bridges
+### Supported Networks
 
-| Network | Bridge | Source |
-|---------|--------|--------|
-| WhatsApp | mautrix-whatsapp | [GitHub](https://github.com/mautrix/whatsapp) |
-| Instagram | mautrix-meta | [GitHub](https://github.com/mautrix/meta) |
-| Facebook Messenger | mautrix-meta | [GitHub](https://github.com/mautrix/meta) |
-| Telegram | mautrix-telegram | [GitHub](https://github.com/mautrix/telegram) |
-| Signal | mautrix-signal | [GitHub](https://github.com/mautrix/signal) |
-| Discord | mautrix-discord | [GitHub](https://github.com/mautrix/discord) |
-| iMessage | mautrix-imessage | [GitHub](https://github.com/mautrix/imessage) |
-| LinkedIn | mautrix-linkedin | [GitHub](https://github.com/mautrix/linkedin) |
-| Slack | mautrix-slack | [GitHub](https://github.com/mautrix/slack) |
-| Twitter/X | mautrix-twitter | [GitHub](https://github.com/mautrix/twitter) |
+| Network | Bridge | Status |
+|---------|--------|:------:|
+| WhatsApp | [mautrix-whatsapp](https://github.com/mautrix/whatsapp) | ✅ |
+| Instagram | [mautrix-meta](https://github.com/mautrix/meta) | ✅ |
+| Facebook Messenger | [mautrix-meta](https://github.com/mautrix/meta) | ✅ |
+| Telegram | [mautrix-telegram](https://github.com/mautrix/telegram) | ✅ |
+| Signal | [mautrix-signal](https://github.com/mautrix/signal) | ✅ |
+| Discord | [mautrix-discord](https://github.com/mautrix/discord) | ✅ |
+| iMessage | [mautrix-imessage](https://github.com/mautrix/imessage) | ✅ |
+| LinkedIn | [mautrix-linkedin](https://github.com/mautrix/linkedin) | ✅ |
+| Slack | [mautrix-slack](https://github.com/mautrix/slack) | ✅ |
+| Twitter/X | [mautrix-twitter](https://github.com/mautrix/twitter) | ✅ |
 
 ### Bridge Libraries
 
-- [mautrix-go](https://github.com/mautrix/go) - Go library for Matrix bridges
-- [mautrix-python](https://github.com/mautrix/python) - Python library for Matrix bridges
+| Library | Language |
+|---------|----------|
+| [mautrix-go](https://github.com/mautrix/go) | Go |
+| [mautrix-python](https://github.com/mautrix/python) | Python |
 
 ---
 
-## Tutorials & Guides
+## 📖 Tutorials & Guides
 
 ### Getting Started
 
-- [Beeper Help Center](https://help.beeper.com) - Official getting started guides
-- [Desktop API Setup](https://github.com/beeper/desktop-api-js#setup) - How to enable and use the Desktop API
+- 📚 [Beeper Help Center](https://help.beeper.com) - Official getting started guides
+- 🔧 [Desktop API Setup](https://github.com/beeper/desktop-api-js#setup) - Enable and use the Desktop API
 
 ### Development
 
-- [Building with the SDK](https://github.com/beeper/desktop-api-js#usage) - SDK usage examples
-- [Raycast Extension Development](https://github.com/beeper/raycast) - Example of a real-world SDK integration
+- 💻 [Building with the SDK](https://github.com/beeper/desktop-api-js#usage) - SDK usage examples
+- 🎨 [Raycast Extension](https://github.com/beeper/raycast) - Real-world SDK integration example
 
-*Have a tutorial to share? [Submit a PR!](https://github.com/beeper-community/awesome-beeper/pulls)*
+> 💡 **Have a tutorial to share?** [Submit a PR!](https://github.com/beeper-community/awesome-beeper/pulls)
 
 ---
 
-## Community
+## 💬 Community
 
-### Discussion & Support
+### Chat & Discussion
 
-- [Beeper Community (Matrix)](https://matrix.to/#/#beeper:beeper.com) - Official community chat
-- [Developer Community](https://matrix.to/#/#beeper-dev:beeper.com) - Developer discussions
-- [r/beeper](https://reddit.com/r/beeper) - Reddit community
+| Platform | Link |
+|----------|------|
+| 💬 Beeper Community | [Matrix](https://matrix.to/#/#beeper:beeper.com) |
+| 👨‍💻 Developer Community | [Matrix](https://matrix.to/#/#beeper-dev:beeper.com) |
+| 🗣️ Reddit | [r/beeper](https://reddit.com/r/beeper) |
 
 ### Stay Updated
 
-- [Beeper Pulse Alerts (Matrix)](https://matrix.to/#/#beeper-pulse-alerts:beeper.com) - Automated release and status notifications
-- [beeper-pulse RSS Feed](https://raw.githubusercontent.com/beeper-community/beeper-pulse/main/feeds/releases.xml) - Subscribe to version updates
-- [beeper-pulse Status Page](https://beeper-community.github.io/beeper-pulse) - Service status and release history
+| Channel | Description |
+|---------|-------------|
+| 🔔 [Pulse Alerts](https://matrix.to/#/#beeper-pulse-alerts:beeper.com) | Automated release & status notifications |
+| 📰 [RSS Feed](https://raw.githubusercontent.com/beeper-community/beeper-pulse/main/feeds/releases.xml) | Subscribe to version updates |
+| 🌐 [Status Page](https://beeper-community.github.io/beeper-pulse) | Service status & release history |
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
+### How to Add Resources
+
+1. Fork this repository
+2. Add your resource to the appropriate section
+3. Follow the existing format
+4. Submit a pull request
+
 ---
 
-## License
+## 📄 License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0)
 
 To the extent possible under law, the contributors have waived all copyright and related rights to this work.
+
+---
+
+<div align="center">
+
+**Part of [Beeper Community](https://github.com/beeper-community)**
+
+<sub>Not affiliated with Beeper or Automattic</sub>
+
+</div>
